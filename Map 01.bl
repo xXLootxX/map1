@@ -1,0 +1,32 @@
+open Level_5;
+fun Tree (x,y,z) = (
+    put (1,5,1) BROWN (x+1,y+0,z+6);
+    sphere 1 [GREEN,LIGHTGREEN] (x+1,y+3,z+6);
+0);
+fun Forest (x,y,z) = (
+    Tree (x+0,y+0,z+0);
+    Tree (x+2,y+0,z+1);
+0);
+fun Mnt (x,y,z) = (
+    put (8,1,6) LIGHTBROWN (x+0,y+0,z+0);
+    put (6,1,4) LIGHTBROWN (x+1,y+1,z+1);
+    put (4,1,2) LIGHTBROWN (x+2,y+2,z+2);
+0);
+build (36,20,48);
+Forest (0,2,1);
+Forest (0,2,11);
+put (36,3,48) GREEN (0,0,0);
+put (6,3,6) EMPTY (0,0,10);
+put (6,3,6) EMPTY (7,0,5);
+put (6,3,6) EMPTY (30,0,27);
+put (6,2,6) INDIGO (0,0,10);
+put (6,2,6) INDIGO (7,0,5);
+put (6,2,6) BLUE (30,0,27);
+Mnt (28,3,34);
+put (6,1,9) LIGHTBROWN (9,2,12);
+put (6,1,9) LIGHTBROWN (20,2,1);
+put (6,1,9) LIGHTBROWN (18,2,10);
+put (8,1,18) LIGHTBROWN (14,2,30);
+put (4,1,5) LIGHTBROWN (13,2,25);
+put (4,1,5) LIGHTBROWN (13,2,20);
+show "thing";

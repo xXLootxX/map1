@@ -1,0 +1,10 @@
+open Level_5;
+fun people (x,y,z) = (
+    put(3,3,3) CLEARRED (x,y,z);
+    put(5,5,5) AQUA (x+3,y+1,z+3);
+    put(6,8,2) RED (x+5,y+1,z+3);
+    put(5,2,6) VIOLET (x+8,y+6,z+5)
+);
+build(30,30,30);
+
+show "thing";

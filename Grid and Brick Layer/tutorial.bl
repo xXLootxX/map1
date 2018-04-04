@@ -1,0 +1,12 @@
+open Level_5;
+
+val length = 4;
+val height = 8;
+val width = 10;
+fun test(x,y,z) = (
+    put(length,height,width) RED  (x,y,z);
+    put(1,2,3) BLUE (x,y,z)
+);
+build(20,20,20);
+test(0,0,0);
+show "thing";

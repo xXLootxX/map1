@@ -1,0 +1,9 @@
+open Level_5;
+build (40,40,40);
+ringY 4 1 6 [GRAY] (10,1,10);
+(*big pillar*)
+put (9,1,9) WHITEGLOW (16,2,16);
+ringY 4 1 6 [YELLOW] (20,3,20);
+(*small pillar*)
+ringY 2 1 6 [YELLOW] (30,2,30);
+show "fountain";

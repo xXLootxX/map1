@@ -1,0 +1,185 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="openLevel1" x="9" y="-733">
+    <value name="semi_or_epsilon">
+      <block type="bwhat"></block>
+    </value>
+    <next>
+      <block type="bbuild">
+        <field name="size">(32,32)</field>
+        <value name="semi_or_epsilon">
+          <block type="bwhat"></block>
+        </value>
+        <next>
+          <block type="put2D_2x3_RED">
+            <field name="xVal">0</field>
+            <field name="zVal">0</field>
+            <value name="semi_or_epsilon">
+              <block type="bwhat"></block>
+            </value>
+            <next>
+              <block type="put2D_2x3_RED">
+                <field name="xVal">3</field>
+                <field name="zVal">0</field>
+                <value name="semi_or_epsilon">
+                  <block type="bwhat"></block>
+                </value>
+                <next>
+                  <block type="put2D_2x3_RED">
+                    <field name="xVal">6</field>
+                    <field name="zVal">0</field>
+                    <value name="semi_or_epsilon">
+                      <block type="bwhat"></block>
+                    </value>
+                    <next>
+                      <block type="put2D_2x3_RED">
+                        <field name="xVal">9</field>
+                        <field name="zVal">0</field>
+                        <value name="semi_or_epsilon">
+                          <block type="bwhat"></block>
+                        </value>
+                        <next>
+                          <block type="put2D_2x3_RED">
+                            <field name="xVal">12</field>
+                            <field name="zVal">0</field>
+                            <value name="semi_or_epsilon">
+                              <block type="bwhat"></block>
+                            </value>
+                            <next>
+                              <block type="put2D_2x3_RED">
+                                <field name="xVal">15</field>
+                                <field name="zVal">0</field>
+                                <value name="semi_or_epsilon">
+                                  <block type="bwhat"></block>
+                                </value>
+                                <next>
+                                  <block type="put2D_2x3_RED">
+                                    <field name="xVal">18</field>
+                                    <field name="zVal">0</field>
+                                    <value name="semi_or_epsilon">
+                                      <block type="bwhat"></block>
+                                    </value>
+                                    <next>
+                                      <block type="put2D_2x3_RED">
+                                        <field name="xVal">21</field>
+                                        <field name="zVal">0</field>
+                                        <value name="semi_or_epsilon">
+                                          <block type="bwhat"></block>
+                                        </value>
+                                        <next>
+                                          <block type="put2D_2x3_RED">
+                                            <field name="xVal">24</field>
+                                            <field name="zVal">0</field>
+                                            <value name="semi_or_epsilon">
+                                              <block type="bwhat"></block>
+                                            </value>
+                                            <next>
+                                              <block type="put2D_2x3_RED">
+                                                <field name="xVal">27</field>
+                                                <field name="zVal">0</field>
+                                                <value name="semi_or_epsilon">
+                                                  <block type="bwhat"></block>
+                                                </value>
+                                                <next>
+                                                  <block type="put2D_4x2_RED">
+                                                    <field name="xVal">0</field>
+                                                    <field name="zVal">4</field>
+                                                    <value name="semi_or_epsilon">
+                                                      <block type="bwhat"></block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="put2D_4x2_RED">
+                                                        <field name="xVal">5</field>
+                                                        <field name="zVal">4</field>
+                                                        <value name="semi_or_epsilon">
+                                                          <block type="bwhat"></block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="put2D_4x2_RED">
+                                                            <field name="xVal">10</field>
+                                                            <field name="zVal">4</field>
+                                                            <value name="semi_or_epsilon">
+                                                              <block type="bwhat"></block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="put2D_4x2_RED">
+                                                                <field name="xVal">15</field>
+                                                                <field name="zVal">4</field>
+                                                                <value name="semi_or_epsilon">
+                                                                  <block type="bwhat"></block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="put2D_4x2_RED">
+                                                                    <field name="xVal">20</field>
+                                                                    <field name="zVal">4</field>
+                                                                    <value name="semi_or_epsilon">
+                                                                      <block type="bwhat"></block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="put2D_4x2_RED">
+                                                                        <field name="xVal">25</field>
+                                                                        <field name="zVal">4</field>
+                                                                        <value name="semi_or_epsilon">
+                                                                          <block type="bwhat"></block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="put2D_1x2_RED">
+                                                                            <field name="xVal">0</field>
+                                                                            <field name="zVal">7</field>
+                                                                            <value name="semi_or_epsilon">
+                                                                              <block type="bwhat"></block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="put2D_4x2_RED">
+                                                                                <field name="xVal">2</field>
+                                                                                <field name="zVal">7</field>
+                                                                                <value name="semi_or_epsilon">
+                                                                                  <block type="bwhat"></block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="show">
+                                                                                    <field name="artifact">"thing"</field>
+                                                                                    <value name="semi_or_epsilon">
+                                                                                      <block type="bwhat"></block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
