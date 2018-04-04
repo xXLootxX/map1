@@ -29,4 +29,4 @@ put (6,1,9) LIGHTBROWN (18,2,10);
 put (8,1,18) LIGHTBROWN (14,2,30);
 put (4,1,5) LIGHTBROWN (13,2,25);
 put (4,1,5) LIGHTBROWN (13,2,20);
-show "thing";
+show "things";
